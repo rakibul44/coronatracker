@@ -1,9 +1,35 @@
-// color-gose-here
-$primary:rgb(248, 7, 7);
-.btn{
-    border-color: $primary ;
-   font-size: 50px;
-   span{
-       color: antiquewhite ;
-   }
+//header-area-start
+.header-area{
+    background: linear-gradient(to top right, #33ccff 0%, #ff99cc 100%);
+    .header-logo{
+        img{
+            width: 200px;
+            height: auto;
+        }
+    }
+.menu{
+    ul{
+        padding-top: 30px;
+        display: flex;
+        justify-content: flex-end;
+        li{
+            list-style: none;
+          
+            a{
+                color: rgb(8, 8, 8);
+                padding: 20px 20px;
+                text-decoration: none;
+                text-transform:capitalize;
+                font-weight: bold;
+                transition: 0.9s;
+                &:hover{
+                    color: rgb(243, 57, 57);
+                }
+            }
+            
+        }
+    }
 }
+}
+
+
