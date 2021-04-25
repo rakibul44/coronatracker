@@ -1,24 +1,23 @@
-.header-area {
-  background: linear-gradient(to bottom left, #ffefba, #ffffff); }
-  .header-area .header-logo img {
-    width: 200px;
-    height: auto; }
-  .header-area .menu ul {
-    padding-top: 30px;
-    display: flex;
-    justify-content: flex-end; }
-    .header-area .menu ul li {
-      list-style: none;
-      padding: 20px 20px; }
-      .header-area .menu ul li a {
-        color: #080808;
-        font-size: 20px;
-        text-decoration: none;
-        text-transform: capitalize;
-        font-weight: bold;
-        transition: 0.9s; }
-        .header-area .menu ul li a:hover {
-          color: #f33939; }
+.header-area .header-logo img {
+  width: 200px;
+  height: auto; }
+
+.header-area .menu ul {
+  padding-top: 30px;
+  display: flex;
+  justify-content: flex-end; }
+  .header-area .menu ul li {
+    list-style: none;
+    padding: 20px 20px; }
+    .header-area .menu ul li a {
+      color: #080808;
+      font-size: 20px;
+      text-decoration: none;
+      text-transform: capitalize;
+      font-weight: bold;
+      transition: 0.9s; }
+      .header-area .menu ul li a:hover {
+        color: #f33939; }
 
 .banner-area {
   background: linear-gradient(to bottom left, #ffefba, #ffffff); }
@@ -79,5 +78,95 @@
 .about-area .about-text ul {
   padding: 15px;
   color: red; }
-  .about-area .about-text ul li p {
-    color: #000; }
+  .about-area .about-text ul li {
+    font-size: 20px; }
+    .about-area .about-text ul li p {
+      color: #000; }
+
+.update-area {
+  padding: 100px; }
+  .update-area .update-box {
+    background: #ffefba;
+    padding: 10px 10px;
+    text-align: center;
+    border-radius: 2px;
+    box-shadow: -5px -2px 8px rgba(77, 76, 76, 0.644); }
+    .update-area .update-box .update-content {
+      position: relative; }
+      .update-area .update-box .update-content img {
+        padding: 5px 0;
+        position: absolute;
+        top: -50%;
+        left: 37%;
+        width: 100px; }
+      .update-area .update-box .update-content h3 {
+        padding-top: 40px;
+        font-size: 70px; }
+      .update-area .update-box .update-content p {
+        text-transform: capitalize;
+        font-weight: bold; }
+
+.health-area {
+  margin-top: 100px; }
+  .health-area .health-content .h-text {
+    padding: 0 50px; }
+    .health-area .health-content .h-text h6 {
+      margin-bottom: 15px;
+      font-weight: bolder;
+      text-transform: capitalize;
+      display: inline-block;
+      padding: 8px 15px;
+      border-radius: 50px;
+      background: #ee6f34; }
+    .health-area .health-content .h-text h2 {
+      font-weight: bold;
+      font-size: 40px; }
+    .health-area .health-content .h-text p {
+      font-weight: bold;
+      padding: 15px 0;
+      color: rgba(58, 57, 57, 0.835); }
+    .health-area .health-content .h-text .h-text-2 ul {
+      padding: 0 15px;
+      color: red; }
+      .health-area .health-content .h-text .h-text-2 ul li p {
+        padding: 0;
+        font-weight: bold;
+        text-transform: capitalize; }
+  .health-area h-photo img {
+    width: 100px;
+    height: auto; }
+
+.card-area {
+  background-color: #FDECEB;
+  margin-top: 200px;
+  padding-bottom: 100px; }
+  .card-area .card-content {
+    text-align: center;
+    padding: 50px 0; }
+    .card-area .card-content h6 {
+      font-weight: bold;
+      text-transform: capitalize;
+      display: inline-block;
+      padding: 8px 15px;
+      border-radius: 50px;
+      background: #ee6f34; }
+    .card-area .card-content h2 {
+      padding-top: 15px;
+      font-weight: bold;
+      text-transform: capitalize;
+      font-size: 40px; }
+  .card-area .card {
+    background: #faeec6;
+    padding: 40px 35px;
+    border: none;
+    box-shadow: -5px 12px 12px rgba(82, 79, 79, 0.582); }
+    .card-area .card .card-img-top {
+      padding: 30px 50px; }
+    .card-area .card .card-body {
+      text-align: center; }
+      .card-area .card .card-body h5 {
+        font-weight: bold;
+        font-size: 30px; }
+      .card-area .card .card-body p {
+        font-weight: bold;
+        padding-top: 20px; }
