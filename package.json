@@ -2,9 +2,9 @@
   "name": "coronatracker",
   "version": "1.0.0",
   "description": "",
-  "main": "gulpfile.js",
+  "main": "app.js",
   "scripts": {
-    "start": "gulp watch"
+    "start": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -19,11 +19,8 @@
     "url": "https://github.com/dev-rakibul/coronatracker/issues"
   },
   "homepage": "https://github.com/dev-rakibul/coronatracker#readme",
-  "devDependencies": {
-    "browser-sync": "^2.26.14"
-  },
+  "devDependencies": {},
   "dependencies": {
-    "gulp": "^4.0.2",
-    "gulp-sass": "^4.1.0"
+    "express": "^4.17.1"
   }
 }
