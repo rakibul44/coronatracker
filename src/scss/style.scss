@@ -119,22 +119,15 @@
     padding: 100px;
     .update-box{
         background:#ffefba;
-        padding: 10px 10px;
         text-align: center;
+        padding: 18px 0px;
         border-radius: 2px;
         box-shadow: -5px -2px 8px rgba(77, 76, 76, 0.644);
         .update-content{
-            position: relative;
-            margin-bottom: 50px;
             img{
-                padding: 5px 0;
-                position: absolute;
-                top: -50%;
-                left: 36%;
-                width: 110px;
+                width: 100px;
             }
             h3{
-                padding-top: 40px;
                 font-size: 70px;
             }
             p{
@@ -288,6 +281,14 @@
             text-transform: capitalize;
             font-weight: bold;
             font-size: 15px;
+        }
+    }
+}
+
+@media (max-width: 769px){
+    .header-area{
+        .menu{
+            display: none;
         }
     }
 }
