@@ -83,21 +83,29 @@
     .about-area .about-text ul li p {
       color: #000; }
 
-.update-area {
-  padding: 100px; }
-  .update-area .update-box {
-    background: #ffefba;
-    text-align: center;
-    padding: 18px 0px;
-    border-radius: 2px;
-    box-shadow: -5px -2px 8px rgba(77, 76, 76, 0.644); }
-    .update-area .update-box .update-content img {
-      width: 100px; }
-    .update-area .update-box .update-content h3 {
-      font-size: 70px; }
-    .update-area .update-box .update-content p {
-      text-transform: capitalize;
-      font-weight: bold; }
+.update-area .update-content {
+  margin-bottom: 160px;
+  margin-top: 100px; }
+  .update-area .update-content .card {
+    cursor: pointer;
+    margin-bottom: 30px;
+    background: #FFD9D6;
+    border: none;
+    transition: .9s;
+    box-shadow: -5px 12px 12px rgba(82, 79, 79, 0.582); }
+    .update-area .update-content .card .card-img-top {
+      padding: 10px 0px;
+      width: 120px;
+      display: block;
+      margin: 0 auto; }
+    .update-area .update-content .card .card-body {
+      text-align: center; }
+      .update-area .update-content .card .card-body h1 {
+        color: #000; }
+      .update-area .update-content .card .card-body p {
+        text-transform: capitalize;
+        font-weight: bold;
+        font-size: 25px; }
 
 .health-area {
   margin-top: 100px; }
