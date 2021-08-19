@@ -250,6 +250,59 @@
     }
 }
 
+// team-area
+.team-area{
+    margin-top: 100px;
+    margin-bottom: 35px;
+    text-align: center;
+    h2{
+        font-weight: bold;
+        font-size: 20px;
+        margin: 30px 0;
+        text-transform: capitalize;
+        display: inline-block;
+        padding: 10px 18px;
+        border-radius: 50px;
+        background: rgb(238, 111, 52);
+    }
+    p{
+        color: #000;
+        font-weight: bold;
+        font-size: 30px;
+        padding-top: 10px;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    .item{
+        text-align: center;
+        .card{
+            border-style: none;
+            cursor: pointer;
+            img{
+                width: 100%;
+                height: auto;
+            }
+            .card-body{
+                .card-title{
+                    font-size: 35px;
+                    font-weight: bold;
+                    padding-top: 20px;
+                }
+                .card-text{
+                    padding: 10px;
+                    font-size: 20px;
+                    font-weight: 400;
+                }
+                .btn{
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}
+
+
+
 //wash-area
 .wash-area{
     margin-top: 150px;
@@ -292,6 +345,28 @@
             font-size: 15px;
         }
     }
+}
+.top-arrow{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    display: none;
+    background: #a88de7;
+    padding: 0px 15px;
+    text-align: center;
+    border-radius: 2px;
+    cursor: pointer;
+    z-index: 1;
+    &:hover{
+        background: #4ea5df;
+        cursor: pointer;
+        }
+    i{
+    color: #fff;
+    font-size: 25px;
+    padding-top: 4px;
+    }
+
 }
 //footer-area
 // .footer-area{}
